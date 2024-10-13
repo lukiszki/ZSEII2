@@ -4,6 +4,17 @@ export default {
   theme: {
     extend: {},
   },
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+
+          "base-100": "#111827", // To jest kolor tła
+          // możesz dodać więcej kolorów
+        },
+      },
+    ],
+  },
   plugins: [
     require('daisyui'),
   ],
